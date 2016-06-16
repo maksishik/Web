@@ -1,12 +1,16 @@
 body{
     margin: 0;
-    background-color: #7917F9;
+    background-color: dodgerblue;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
 }
 
 header{
-    width: 960px;
-    margin: 0 auto;
-    font-family: sans-serif;
+
     text-transform: uppercase;
 }
 
@@ -129,21 +133,39 @@ header{
     background-position: 175px 0;
 }
 
+/*--------------------------------------------------------------------------------------------------------------------*/
 .main_menu{
-    font-size: 11px
-}
-
-.main_menu li.asd{
     float: left;
-    list-style-image: url("http://phoenix-dnr.ru/images/angle_2.png");
+    width: 23.9%;
+    margin-right: 10px;
+    height: 270px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px black;
+    background-color: #fff;
 }
 
-.main_menu .second_li li{
-
-    list-style-image: url("http://phoenix-dnr.ru/images/angle_2.png");
+.main_menu .list_head{
+    margin: 15px;
+    margin-left: 27px;
+    padding-left: 13px;
+    font-size: 21px;
+    height: 60px;
+    font-weight: bold;
+    color: #303030;
+    background-image: url("http://phoenix-dnr.ru/images/angle.png");
+    background-repeat: no-repeat;
+    background-position: 0 10px;
+    box-shadow: 0px 1.6px 1.7px 0px rgba(50, 50, 50, 0.2);
 }
 
-.main_menu .second_li{
-    padding-left: 1px;
-    padding-top: 5px;
+.main_menu ul{
+    padding-right: 5px;
+}
+
+.main_menu li{
+    list-style-image: url("http://phoenix-dnr.ru/images/angle_2.png");
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #2277FF;
 }
