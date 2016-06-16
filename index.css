@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: dodgerblue;
+    background-color: #785DE4;
     font-family: sans-serif;
 }
 
@@ -160,12 +160,15 @@ header{
 
 .main_menu ul{
     padding-right: 5px;
-
 }
 
 .main_menu li{
     list-style-image: url("http://phoenix-dnr.ru/images/angle_2.png");
-    margin-bottom: 15px;
+    margin-bottom: 9px;
+}
+
+.main_menu a{
+    text-decoration: none;
     font-size: 14px;
     font-weight: bold;
     color: #2277FF;
@@ -175,14 +178,45 @@ header{
     width: 960px;
     height: 270px;
     display: block;
+    margin-bottom: 20px;
 }
 /*--------------------------------------------------------------------------------------------------------------------*/
 
 /*--------------------------------------------------------------------------------------------------------------------*/
+.about_rel{
+    position: relative;
+}
+
+.about_rel a{
+
+}
+
 .about_img{
-    background-image: url("http://phoenix-dnr.ru/images/mobile_2.png");
-    background-repeat: no-repeat;
-    height: 244px;
     clear: both;
+    padding: 20px 35px 20px 0;
+    border-right: 1px solid #b7b7b7;
+}
+
+.about{
+    width: 278px;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+}
+
+.about a{
+    float: right;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: darkslategray;
+}
+
+.about p{
+    font-size: 12px;
+
+}
+
+.inline{
+    display: inline-block;
 }
 /*--------------------------------------------------------------------------------------------------------------------*/
