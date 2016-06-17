@@ -21,7 +21,7 @@ header{
     padding-top: 10px;
 }
 
-.top{
+.row{
     display: table-row;
     height: 75px;
 }
@@ -213,10 +213,75 @@ header{
 
 .about p{
     font-size: 12px;
-
 }
 
 .inline{
     display: inline-block;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+footer{
+    background-color: white;
+}
+
+.tableContainerFooter{
+    display: table;
+}
+
+.tableRowFooter{
+    display: table-row;
+}
+
+.tableContainerFooter div{
+    display: table-cell;
+    padding-top: 0px;
+    padding-right: 34px;
+    vertical-align: top;
+}
+
+.tableContainerFooter div.net{
+    padding-right: 0px;
+    width: 227px;
+}
+
+.tableContainerFooter div h2{
+    color: #929292;
+    font-size: 18px;
+}
+
+.tableContainerFooter div li a{
+    color: #165978;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.tableContainerFooter div ul{
+    padding-left: 15px;
+}
+
+.tableContainerFooter div li{
+    list-style-image: url("http://phoenix-dnr.ru/images/angle_5.png");
+}
+
+.tableContainerFooter div img{
+    padding-top: 20px;
+}
+
+.tableContainerFooter div ul{
+    padding-left: 0px;
+
+}
+
+.tableContainerFooter div li.net{
+    list-style: none;
+    display: inline-block;
+    transition: transform .4s;
+
+}
+
+.tableContainerFooter div li.net:hover{
+    transform: scale(1.1) rotate(30deg);
 }
 /*--------------------------------------------------------------------------------------------------------------------*/
