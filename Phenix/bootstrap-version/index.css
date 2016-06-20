@@ -1,0 +1,83 @@
+body{
+    font-family: sans-serif;
+    /*background-color: #1b6d85;*/
+    background-image: linear-gradient(to bottom, #6606FF, white);
+    height: 980px;
+}
+
+header{
+
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+
+/*override bootstrap width*/
+.container{
+    width: 960px;
+}
+
+.top_inf {
+    text-align: right;
+    color: #b0b0b0;
+    font-size: 9px;
+    padding-top: 15px;
+    line-height: 20px;
+}
+
+.top_inf .numb{
+    font-size: 23px;
+}
+
+.top_inf .phone{
+    font-size: 16px;
+}
+
+.top_search{
+    padding-top: 20px;
+}
+
+.top_search input{
+    border: none;
+    -webkit-border-radius: 5px;
+    height: 30px;
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+
+.top_nav{
+    background-image: linear-gradient(to bottom, white, silver);
+    border-radius: 5px;
+    margin: 0 15px;
+    font-size: 11px;
+}
+
+.top_nav a{
+    color: black;
+}
+
+.top_nav ul li{
+    display: inline-block;
+    border-right: 1px solid black;
+    padding: 16px 30px;
+    text-transform: uppercase;
+}
+
+.top_nav ul li:last-child, .top_nav ul li:first-child{
+    border-right: none;
+}
+
+.top_nav ul li:first-child{
+    padding-left: 5px;
+}
+
+.top_nav ul li:first-child a{
+    background-image: linear-gradient(to top, #4E4BB1, #2A2A8A);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 40px;
+}
